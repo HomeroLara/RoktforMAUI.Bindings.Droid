@@ -7,7 +7,7 @@
     <PackageDescription>Xamarin Android binding for native Rokt Android SDK</PackageDescription>
     <Authors>Homero Lara</Authors>
     <Company>Cinemark</Company>
-	  <RepositoryUrl>https://github.com/nubis-uno/play.common</RepositoryUrl>
+	  <RepositoryUrl>https://github.com/HomeroLara/RoktforMAUI.Bindings.iOS</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageId>RoktforMaui.Bindings.Droid</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
