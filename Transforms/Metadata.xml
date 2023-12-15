@@ -1,0 +1,44 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='DaggerWidgetComponent']/method[@name='roktApi' and count(parameter)=0]"/>
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='DaggerAppComponent.Builder']/method[@name='build' and count(parameter)=0]"/>
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='DaggerWidgetComponent.Builder']/method[@name='build' and count(parameter)=0]"/>
+
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='DaggerWidgetComponent']/method[@name='inject' and count(parameter)=1 and parameter[1][@type='androidx.appcompat.app.AppCompatActivity']]"/>
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='DaggerWidgetComponent']/method[@name='inject' and count(parameter)=1 and parameter[1][@type='androidx.appcompat.app.AppCompatActivity']]"/>
+
+  -->
+                 
+    <remove-path path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='DaggerWidgetComponent.Builder']/method[@name='build' and count(parameter)=0]" />
+    <remove-path path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='DaggerAppComponent.Builder']/method[@name='build' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='DaggerWidgetComponent']/method[@name='roktApi' and count(parameter)=0]"/>
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='DaggerAppComponent']/method[@name='roktApi' and count(parameter)=0]"/>
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='DaggerWidgetComponent']/method[@name='inject' and count(parameter)=1 and parameter[1][@type='androidx.appcompat.app.AppCompatActivity']]"/>
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.overlay']/class[@name='OverlayActivity_MembersInjector']"/>
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='AppModule_ProvideDebugBuildStatusFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='AppModule_ProvideNetworkClientFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.linkscreen']/class[@name='LinkActivity_MembersInjector']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk']/class[@name='Widget_MembersInjector']"/>
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='AppModule_ContextFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='AppModule_ProvideBaseUrlFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='WidgetModule_ProvideActivityFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='AppModule_ProvideRequestTimeoutMillisFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='WidgetModule_ProvideExecuteIdFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.singleton']/class[@name='NetworkModule_ProvideRoktApiFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='WidgetModule_ProvidePlacementViewCallbackFactory']/method[@name='get' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='WidgetModule_ProvideRequestTimeoutMillisFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='WidgetModule_ProvidePlacementViewCallbackFactory']/method[@name='providePlacementViewCallback' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='java.lang.Object']]" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='WidgetModule_ProvidePlacementViewCallbackFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='WidgetModule_ProvideSessionIdFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk.internal.dagger.widget']/class[@name='WidgetModule_ProvideRoktEventCallbackFactory']" />
+    <remove-node path="/api/package[@name='com.rokt.roktsdk']/class[@name='Rokt.Environment.ProdDemo']" />
+
+      
+</metadata>
+

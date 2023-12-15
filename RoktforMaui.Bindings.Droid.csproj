@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageDescription>Xamarin Android binding for native Rokt Android SDK</PackageDescription>
+    <Authors>Homero Lara</Authors>
+    <Company>Cinemark</Company>
+	  <RepositoryUrl>https://github.com/nubis-uno/play.common</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>RoktforMaui.Bindings.Droid</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageTitle>RoktforMaui.Bindings.Droid</PackageTitle>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.7.20.1" />
+    <PackageReference Include="Xamarin.Google.Dagger" Version="2.36.0" />
+    <PackageReference Include="Xamarin.Google.Guava.FailureAccess" Version="1.0.1.8" />
+    <PackageReference Include="Xamarin.Google.Guava" Version="31.1.0.4" />
+    <PackageReference Include="Xamarin.Android.ReactiveX.RxAndroid" Version="2.1.1.1" />
+    <PackageReference Include="Xamarin.Android.ReactiveX.RxJava" Version="2.2.21.8" />
+    <PackageReference Include="Square.Retrofit2.ConverterGson" Version="2.6.4" />
+    <PackageReference Include="Square.Retrofit2.AdapterRxJava2" Version="2.6.4" />
+    <PackageReference Include="Square.OkHttp3" Version="4.9.3.2" />
+    <PackageReference Include="GoogleGson" Version="2.8.9.3" />
+    <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="4.4.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Jars\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Jars\" />
+  </ItemGroup>
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>
